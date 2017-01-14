@@ -5,7 +5,7 @@ v3 = ["encender","el","pin"]
 v4 = ["apagar","el","pin"]
 v5 = ["leer","el","pin"]
 v6 = ["y","guardar","como"]
-
+https://gist.github.com/anonymous/1e934675b6e195383ccbd2ea392dabde
 
 
 
