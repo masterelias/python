@@ -4,6 +4,15 @@ El tema es Tecnologia Auditiva, la cual consiste en la utilizacion de la
 tecnica y la ciencia para la realizacion de aplicaciones practicas que ayuden
 a las personas.
 
+Es una tecnología que permite el mejoramiento de la calidad auditiva, exiten dos tipos, la análoga y la digital:
+
+Las análogas:
+ este tipo de aparato auditivo convierte las ondas sonoras en señales eléctricas que luego son amplificadas.
+El aparato auditivo principalmente amplifica todos los sonidos (habla y el ruido) de la misma manera. Esta tecnología es el más barata en comparación con otras, y puede ser adecuada a los diversos aparatos auditivos que hay. Por otro lado los aparatos analógicos programables tienen un microchip que permite al audiólogo programar el aparato a los entornos diferentes. En estos por ejemplo, incluyen entornos de conversación tranquila en casa, situaciones ruidosas como un restaurante, o en áreas grandes, como un teatro. Los ajustes de programación dependerá de su perfil individual de pérdida auditiva, la comprensión del habla y el rango de tolerancia a sonidos más fuertes.
+
+Digitales:
+Esta tecnología en aparato auditivo transforma las ondas sonoras en códigos numéricos (que es similar al código binario de una computadora) antes de ser amplificados. Estos códigos cuentan con la información del nivel y tono de sonidos, de tal forma que el aparato puede ser programado para amplificar ciertas frecuencias. Básicamente consta de un chip de computadora en el aparato auditivo que manda las señales para determinar si el sonido es de ruido o de habla.Al sistema de circuitos digitales se le realizan algunas modificaciones que le proporciona mayor flexibilidad al audiólogo para graduar el aparato auditivo de acuerdo a las necesidades del usuario y las situaciones en las que se encuentre.
+
 Importancia?
 
 La tecnologia auditiva es de suma importancia debido al hecho de que nos
@@ -11,6 +20,11 @@ permite conocer mejor sobre uno de nuestros sentidos mas importantes, el cual
 es la escucha, asi como solucionar las carencias auditivas que pudiensen tener
 las personas o extender dichas capacidades por encima de los niveles
 naturales.
+
+Esta tecnología se adapta a la necesidad del quien lo utilice ya que amplifica el sonido de manera que limpia las ondas sonoras para que la información entre por le micrófono y permita a la persona poder escuchar gracias a esto logra que las personas con problemas auditivos tengan acceso al sonido, ya que las personas con este problema sufren de dificultades como:
+Impedimento para escuchar ruidos lejanos.
+Presentan desequilibrio y desorientación al caminar.
+A todo eso se debe su importancia.
 
 
 Aplicaciones?
@@ -31,3 +45,7 @@ La mayoria de las aplicaciones practicas se basan en la capacidad del sonido
 de ser una onda, por lo cual con otra onda contraria estas se anulan, siendo
 la principal tecnologia la de cancelacion de ruido, que permiten anular ruidos
 exteriores al medio.
+
+El micrófono recoge los sonidos del aire y los transforma en señales eléctricas. El amplificador aumenta la intensidad de las señales del micrófono y, gracias a unos filtros, sólo amplifica los sonidos que son importantes para los usuarios. Y el auricular, receptor o altavoz, convierte las señales eléctricas en acústicas. Pero, además, en los modelos digitales es posible programar un microordenador para manipular las señales y adaptarlas a la pérdida auditiva de cada usuario, labor que se puede realizar mediante el mando a distancia
+
+Las pilas, por su parte, son específicas para cada aparato. De ahí que tanto el tamaño como su capacidad sean diferentes. La duración media varía entre 5 y 14 días en función del tipo de pila, de audífono y del tiempo durante el que se use.
