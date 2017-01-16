@@ -1,0 +1,154 @@
+void setup() {
+  //Colores
+
+int  Rojo = 6;
+int  Azul = 5;
+int  VerdeL =  11;
+int  VerdeO = 13;
+int  RojoN = 9;
+int  Naranja = 10;
+
+pinMode(6, OUTPUT);
+pinMode(5, OUTPUT);
+
+int Colores[] = {6,5,11,13,9,10};
+}
+
+void loop() {
+
+
+
+
+/**for (int i=256; i > 0; i-=2){
+
+    prenderRojo(i);
+    delay(10);
+    
+}
+
+for (int i=0; i < 256; i+=2){
+
+    prenderVerdeL(i);
+    delay(10);
+    
+}
+
+for (int i=256; i > 0; i-=2){
+
+    prenderVerdeO(i);
+    delay(10);
+    
+}
+
+for (int i=0; i < 256; i+=2){
+
+    prenderNaranja(i);
+    delay(10);
+    
+}
+
+for (int i=256; i > 0; i-=2){
+
+    prenderRNaranja(i);
+    delay(10);
+    
+}
+
+
+for (int i=0; i < 256 ; i+=2){
+
+    prenderAzul(i);
+    delay(30);
+    
+}
+
+for (int i=256; i > 0 ; i-=2){
+
+    prenderRojo(i);
+    delay(30);
+    
+}
+**/
+
+
+
+colorRGB(255,0,255);
+}
+
+
+void prenderRojo(int x){
+
+// Se apagan todos los otros colores 
+analogWrite(11,0);
+analogWrite(10,0);
+analogWrite(9,0);
+analogWrite(5,0);
+analogWrite(13,0);
+analogWrite(3,0);
+// Y se prender el rojo
+analogWrite(6,x);
+
+  }
+void prenderAzul(int x){
+  // Se apagan todos los otros colores 
+analogWrite(11,0);
+analogWrite(10,0);
+analogWrite(9,0);
+analogWrite(6,0);
+analogWrite(13,0);
+analogWrite(3,0);
+// Y se prender el rojo
+analogWrite(5,x);
+}
+void prenderVerdeO(int x){
+  // Se apagan todos los otros colores 
+analogWrite(11,0);
+analogWrite(10,0);
+analogWrite(9,0);
+analogWrite(5,0);
+analogWrite(6,0);
+analogWrite(3,0);
+// Y se prender el rojo
+analogWrite(13,x);
+}
+void prenderVerdeL(int x){// Se apagan todos los otros colores 
+analogWrite(6,0);
+analogWrite(10,0);
+analogWrite(9,0);
+analogWrite(5,0);
+analogWrite(13,0);
+analogWrite(3,0);
+// Y se prender el rojo
+analogWrite(11,x);}
+
+void prenderNaranja(int x){// Se apagan todos los otros colores 
+analogWrite(11,0);
+analogWrite(6,0);
+analogWrite(9,0);
+analogWrite(5,0);
+analogWrite(13,0);
+analogWrite(3,0);
+// Y se prender el rojo
+analogWrite(10,x);}
+
+void prenderRNaranja(int x){// Se apagan todos los otros colores 
+analogWrite(11,0);
+analogWrite(3,0);
+analogWrite(10,0);
+analogWrite(6,0);
+analogWrite(5,0);
+analogWrite(13,0);
+// Y se prender el rojo
+analogWrite(9,x);}
+
+void colorRGB(int r,int g, int b) {
+ analogWrite(11,0);
+analogWrite(3,0);
+analogWrite(10,0);
+analogWrite(6,0);
+// Y se prender el rojo
+analogWrite(9,r);
+analogWrite(5,b);
+analogWrite(13,g);
+
+}
