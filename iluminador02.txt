@@ -1,0 +1,226 @@
+void setup() {
+  //Colores
+
+int  Rojo = 6;
+int  Azul = 5;
+int  VerdeL =  11;
+int  VerdeO = 13;
+int  RojoN = 9;
+int  Naranja = 10;
+
+
+
+int Colores[] = {6,5,11,13,9,10};
+}
+
+void loop() {
+
+
+
+// Bucle de Colores que aumenena y se reducen de intensidad
+/**
+ Primero se prender el Rojo
+ Despues poco a poco se prender el verde Limon
+ Asi mientras un color se prender y va subiendo de intensidad
+ El otro se va apagando
+
+ No funcionaba debido a que los que se apagaban empezaban a partir de 256
+  
+ */
+for (int i=255; i > 0; i-=1){
+
+    prenderRojo(i);
+    delay(5);
+    
+}
+
+for (int i=0; i < 256; i+=1){
+
+    prenderVerdeL(i);
+    delay(5);
+    
+}
+
+for (int i=255; i > 0; i-=1){
+
+    prenderVerdeO(i);
+    delay(5);
+    
+}
+
+for (int i=0; i < 256; i+=1){
+
+    prenderNaranja(i);
+    delay(5);
+    
+}
+
+for (int i=255; i > 0; i-=1){
+
+    prenderRNaranja(i);
+    delay(5);
+    
+}
+
+
+for (int i=0; i < 256 ; i+=1){
+
+    prenderAzul(i);
+    delay(5);
+    
+}
+
+for (int i=255; i > 0 ; i-=1){
+
+    prenderRojo(i);
+    delay(5);
+    
+}
+
+
+
+/**
+ Efectos de Colores RGB
+ Como la bandera Paraguaya
+ Se alternan colores
+ Uno se prender mientras otro se apaga
+ Se repite por 30 veces 
+ */
+
+for (int m = 0; m < 30; m++){
+ //Color Azul
+colorRGB(0,0,204);
+delay(1000);
+ //Color Rojo
+colorRGB(255,0,0);
+delay(1000);
+ //Color Blanco
+colorRGB(255,255,255);
+delay(1000);}
+
+
+/**
+ COLORES DE LA NATURALEZA
+
+Se encienden colores como el marron, verde, verde oscuro, violeta, marron,
+verde claro
+ 
+ */
+
+ for (int n = 0; n < 20; n++){
+
+  colorRGB(255,255,51);
+  delay(1000);
+   colorRGB(128,255,0);
+  delay(1000);
+   colorRGB(0,204,0);
+  delay(1000);
+   colorRGB(153,76,0);
+  delay(1000);
+   colorRGB(0,51,0);
+  delay(1000);
+   colorRGB(153,153,0);
+  delay(1000);
+   colorRGB(0,0,255);
+  delay(1000);
+   colorRGB(0,128,255);
+  delay(1000);}
+
+/**
+ DISCOTECA DE LOS '80
+ */
+
+ for (int e= 0; e < 20; e++){
+
+   colorRGB(255,0,255);
+  delay(300);
+   colorRGB(153,0,153);
+  delay(300);
+   colorRGB(102,0,204);
+  delay(300);
+   colorRGB(0,255,255);
+  delay(300);
+   colorRGB(0,0,255);
+  delay(300);
+   colorRGB(204,0,102);
+  delay(300);}
+
+}
+
+
+void prenderRojo(int x){
+
+// Se apagan todos los otros colores 
+analogWrite(11,0);
+analogWrite(10,0);
+analogWrite(9,0);
+analogWrite(5,0);
+analogWrite(13,0);
+analogWrite(3,0);
+// Y se prender el rojo
+analogWrite(6,x);
+
+  }
+void prenderAzul(int x){
+  // Se apagan todos los otros colores 
+analogWrite(11,0);
+analogWrite(10,0);
+analogWrite(9,0);
+analogWrite(6,0);
+analogWrite(13,0);
+analogWrite(3,0);
+// Y se prender el rojo
+analogWrite(5,x);
+}
+void prenderVerdeO(int x){
+  // Se apagan todos los otros colores 
+analogWrite(11,0);
+analogWrite(10,0);
+analogWrite(9,0);
+analogWrite(5,0);
+analogWrite(6,0);
+analogWrite(3,0);
+// Y se prender el rojo
+analogWrite(13,x);
+}
+void prenderVerdeL(int x){// Se apagan todos los otros colores 
+analogWrite(6,0);
+analogWrite(10,0);
+analogWrite(9,0);
+analogWrite(5,0);
+analogWrite(13,0);
+analogWrite(3,0);
+// Y se prender el rojo
+analogWrite(11,x);}
+
+void prenderNaranja(int x){// Se apagan todos los otros colores 
+analogWrite(11,0);
+analogWrite(6,0);
+analogWrite(9,0);
+analogWrite(5,0);
+analogWrite(13,0);
+analogWrite(3,0);
+// Y se prender el rojo
+analogWrite(10,x);}
+
+void prenderRNaranja(int x){// Se apagan todos los otros colores 
+analogWrite(11,0);
+analogWrite(3,0);
+analogWrite(10,0);
+analogWrite(6,0);
+analogWrite(5,0);
+analogWrite(13,0);
+// Y se prender el rojo
+analogWrite(9,x);}
+
+void colorRGB(int r,int g, int b) {
+ analogWrite(11,0);
+analogWrite(3,0);
+analogWrite(10,0);
+analogWrite(6,0);
+// Y se prender el rojo
+analogWrite(9,r);
+analogWrite(5,b);
+analogWrite(13,g);
+
+}
